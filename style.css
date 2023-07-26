@@ -1,0 +1,94 @@
+:root {
+  --fundo: #41a1e6;
+}
+
+* {
+  color: black;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  /*background-image: url(./imagens/Fundo.jpg);*/
+  background-image: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header {
+  width: auto;
+  background-color: var(--fundo);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: auto;
+}
+
+.header-title {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  margin-left: 10px;
+}
+
+.main-menu {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.href {
+  transform: rotate(180deg); /* Equal to rotateZ(45deg) */
+}
+
+li {
+  list-style-type: none;
+}
+
+footer {
+  background: var(--fundo);
+  width: auto;
+  text-align: center;
+  font-size: 40px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+a:hover {
+  /* text-decoration: none; */
+  color: var(--fundo);
+  font-size: larger;
+}
+
+.container-button {
+  display: flex; /* coloca os quadrados lado a lado */
+  flex-direction: column; /* coloca os quadrados em colunas */
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px; /* adiciona espaços iguais entre cada quadrado */
+}
+
+.container-subtitle {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.container-links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  color: var(--fundo);
+  text-align: center;
+  width: 50%;
+  border-radius: 16px;
+  font-size: 24px;
+  font-weight: 800;
+  padding: 21.5px 0;
+  text-decoration: none;
+}
